@@ -1,6 +1,6 @@
 package card
 
-import "github.com/SonnLarissa/bank/pkg/types"
+import "github.com/SonnLarissa/bank/v2/pkg/types"
 
 func IssueCard(currency types.Currency, color string, name string) types.Card {
 	card := types.Card{
@@ -67,4 +67,3 @@ func PaymentSources(cards []types.Card) []types.PaymentSource {
 	}
 	return r
 }
-

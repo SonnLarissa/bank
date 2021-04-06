@@ -1,3 +1,3 @@
-module github.com/SonnLarissa/stats
+module github.com/SonnLarissa/bank/v2
 
-go 1.15
+go 1.16
