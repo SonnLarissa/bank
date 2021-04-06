@@ -37,3 +37,10 @@ type PaymentSource struct {
 	Number  string // номер вида '5058 xxxx xxxx 8888'
 	Balance Money  // баланс в дирамах
 }
+type Status string
+
+const (
+	StatusOk         Status = "OK"
+	StatusFail       Status = "FAIL"
+	StatusInProgress Status = "INPROGRESS"
+)

@@ -1,6 +1,6 @@
 package stats
 
-import "github.com/SonnLarissa/bank/pkg/types"
+import "github.com/SonnLarissa/bank/v2/pkg/types"
 
 // Avg рассчитывает среднюю сумму платежа.
 func Avg(payments []types.Payment) types.Money {
